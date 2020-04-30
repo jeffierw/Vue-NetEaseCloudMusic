@@ -25,9 +25,13 @@ export default {
 <style scoped lang="stylus" rel="stylesheet/stylus">
   .tab
     display: flex
-    height 44px
-    line-height 44px
-    font-size $font-size-medium
+    position: fixed
+    bottom: 0
+    left: 0
+    right: 0
+    height: 44px
+    line-height: 44px
+    font-size: $font-size-medium
     .tab-item
       flex: 1
       text-align center
